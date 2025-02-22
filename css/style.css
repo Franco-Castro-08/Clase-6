@@ -1,0 +1,15 @@
+.mi-footer .bi {
+    fill: #333; /* Un gris oscuro */
+  }
+  
+  .mi-footer .bi.facebook {
+    fill: #242424; /* Un gris oscuro mas específico para facebook */
+  }
+  
+  .mi-footer .bi.instagram {
+    fill: #404040; /* Un gris oscuro mas específico para instagram */
+  }
+  
+  .mi-footer .bi:hover {
+      fill: #111; /* un gris más oscuro cuando se pasa el ratón por encima*/
+  }
