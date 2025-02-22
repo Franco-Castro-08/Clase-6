@@ -2,18 +2,3 @@ body {
     background-color: #db9b3b;
   }
 
-.bi {
-    fill: #333; /* Un gris oscuro */
-  }
-  
-.bi.facebook {
-    fill: #242424; /* Un gris oscuro mas específico para facebook */
-  }
-  
-.bi.instagram {
-    fill: #404040; /* Un gris oscuro mas específico para instagram */
-  }
-  
-.bi:hover {
-      fill: #111; /* un gris más oscuro cuando se pasa el ratón por encima*/
-  }
