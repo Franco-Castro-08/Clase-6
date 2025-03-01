@@ -17,6 +17,19 @@
       .carousel-container img {
         height: auto; /* Permite que la altura se ajuste automáticamente */
       }
+
+      .perfil-img-container {
+            width: 80px; /* Ajusta el tamaño del contenedor según tus necesidades */
+            height: 80px; /* Ajusta el tamaño del contenedor según tus necesidades */
+            overflow: hidden; /* Asegura que la imagen no se desborde */
+            margin-right: 10px; /* Espacio entre la imagen y el texto */
+        }
+
+        .perfil-img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover; /* Recorta y escala la imagen para llenar el contenedor */
+        }
     </style>
 
 </head>
@@ -172,8 +185,10 @@
 
             <div class="card border-secondary mt-3 mb-3 d-flex justify-content-center" style="max-width: 27rem; ">
               <div class="card-body text-secondary">
-                <div class="row">
-                  <img src="img/p14.jpeg" class="rounded-circle w-25" alt="perfil1">
+                <div class="row align-items-center">
+                  <div class="perfil-img-container">    
+                  <img src="img/p14.jpeg" class="rounded-circle perfil-img" alt="perfil1">
+                  </div>
                   <h5 class="card-title">Lucas Novil</h5>
                 </div>
                 <p class="card-text">Excelentes los diseños que ofrencen y sobre todo comodo. La atención y el envío súper bien</p>
@@ -186,8 +201,10 @@
 
             <div class="card border-secondary mt-3 mb-3 d-flex justify-content-center" style="max-width: 18rem; margin: 5;">
               <div class="card-body text-secondary">
-                <div class="row">
-                  <img src="img/p11.jpeg" class="rounded-circle w-50" alt="perfil2">
+                <div class="row align-items-center">
+                  <div class="perfil-img-container">
+                  <img src="img/p11.jpeg" class="rounded-circle perfil-img" alt="perfil2">
+                  </div>
                   <h5 class="card-title">Carla Yañez</h5>
                 </div>
                 <p class="card-text">Quedé encantada con el diseño de los sillones en mi casa. ¡Excelente!</p>
@@ -204,8 +221,10 @@
           <div class="container col-md-5 bg-secondary d-flex justify-content-center">
             <div class="card border-secondary mt-3 mb-3 d-flex justify-content-center" style="max-width: 18rem;">
               <div class="card-body text-secondary">
-                <div class="row">
-                  <img src="img/perfil8.jpg" class="rounded-circle w-50" alt="perfil3">
+                <div class="row align-items-center">
+                  <div class="perfil-img-container">
+                  <img src="img/perfil8.jpg" class="rounded-circle perfil-img" alt="perfil3">
+                   </div> 
                   <h5 class="card-title">Veronica Leyes</h5>
                 </div>
                 <p class="card-text">Maravilloso todo, la atención y como nos asesoraron para que nuestra casa quede hermosa con esos diseños espectaculares</p>
@@ -218,8 +237,10 @@
 
           <div class="card border-secondary mt-3 mb-3 d-flex justify-content-center" style="max-width: 27rem;">
             <div class="card-body text-secondary">
-              <div class="row">
-                <img src="img/p12.jpeg" class="rounded-circle w-25" alt="perfil4">
+              <div class="row align-items-center">
+                <div class="perfil-img-container">
+                <img src="img/p12.jpeg" class="rounded-circle perfil-img" alt="perfil4">
+                </div>  
                 <h5 class="card-title">Kiara Hernandez</h5>
               </div>
               <p class="card-text">La verdad todo muy cool, 10/10. Gracias por esos sofas que dejan a mi living un paraíso</p>
@@ -238,8 +259,10 @@
 
       <div class="card border-secondary mt-3 mb-3 d-flex justify-content-center" style="max-width: 20rem;">
         <div class="card-body text-secondary">
-          <div class="row">
+          <div class="row align-items-center">
+            <div class="perfil-img-container">
             <img src="img/p13.jpeg" class="rounded-circle w-50" alt="perfil5">
+            </div>  
             <h5 class="card-title">Jose Lopez</h5>
           </div>
           <p class="card-text">Espectacular el lugar, no sabía que diseño elegir de tantos sofas y sillones. Pero mi casa quedó hermosa</p>
